@@ -7,13 +7,13 @@ body {
     line-height: 1.5;
     margin: 1;
     padding: 0,5;
-    background-color: #a56e6e;
+    background-color: hsl(0, 68%, 60%);
 }
 
 header, nav, main, footer {
     padding: 25px;
     margin: 15px;
-    background: rgb(156, 100, 100);
+    background: hsl(0, 67%, 60%);
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -30,7 +30,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #726262;
+    color: hsl(0, 11%, 95%);
     font-weight: bold;
 }
 
@@ -44,7 +44,7 @@ main {
 
 aside {
     width: calc(20% - 20px); /* Resto 20px para que no colapse por el margin-left y margin-rigth */
-    background: #c96565;
+    background: hsl(0, 68%, 60%);
 }
 
 section {
@@ -53,7 +53,7 @@ section {
 }
 
 article {
-    border-bottom: 1,5px solid #d88383;
+    border-bottom: 1,5px solid #df5353;
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
